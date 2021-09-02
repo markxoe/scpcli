@@ -1,7 +1,7 @@
 {
   "name": "servercontrolpanel-cli",
   "description": "Simple CLI for the servercontrolpanel by netcup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./build/cli.js",
   "homepage": "https://github.com/markxoe/scpcli#readme",
   "repository": {
