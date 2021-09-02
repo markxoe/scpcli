@@ -1,0 +1,42 @@
+{
+  "name": "servercontrolpanel-cli",
+  "description": "Simple CLI for the servercontrolpanel by netcup",
+  "version": "0.1.0",
+  "main": "./build/cli.js",
+  "homepage": "https://github.com/markxoe/scpcli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markxoe/scpcli"
+  },
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "prepublish": "npm run build"
+  },
+  "bin": {
+    "scpcli": "./build/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "enquirer": "^2.3.6",
+    "fs-extra": "^10.0.0",
+    "ora": "^5.4.1",
+    "soap": "^0.42.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/node": "^16.7.10",
+    "@types/soap": "^0.21.0",
+    "@types/yargs": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.2"
+  },
+  "license": "GPL-3.0"
+}
