@@ -9,7 +9,8 @@
     "url": "https://github.com/markxoe/scpcli"
   },
   "files": [
-    "build/*"
+    "build/*",
+    ".github/assets"
   ],
   "scripts": {
     "build": "tsc",
